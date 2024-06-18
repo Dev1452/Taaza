@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!--Light boc css  link -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <!--Font awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navbar section Start -->
+    <header id="full_nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="header_right">
+                            <div class="text-lg-end">
+                                <span>Call us!</span>
+                                <span class="phone_no">+91 9471596315</span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar section Exit -->
+
+    <!-- banner Section start -->
+    <section class="banner_section">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Cart Overview</h1>
+            </div>
+        </div>
+    </section>
+    <!-- banner section exit -->
+
+
+    <!-- Cart Overview Sectiotablen start -->
+    <section class="cart_overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-sm-12 col-md-12 table-responsive">
+                    <table>
+                        <thead>
+                            <tr class="cartoverview_title">
+                                <th>IMAGES</th>
+                                <th>PRODUCT</th>
+                                <th>PRICE</th>
+                                <th>QUANTITY</th>
+                                <th>TOTAL</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        <thead class="strawberry">
+                            <tr>
+                                <th>
+                                    <div class="thumbnail-img">
+                                        <img src="images/cart-overview/overviewimg1.jpg" alt="">
+                                    </div>
+                                </th>
+                                <td class="align-middle fs-3">
+                                    <b>Strawberry</b>
+                                </td>
+                                <td class="align-middle fs-3" id="priceincrement">30</td>
+                                <td class="align-middle ">
+                                    <div class="cart d-flex justify-content-between">
+                                        <div class="quantity d-flex align-items-center ">
+                                            <button class="btn fs-2 dec">-</button>
+                                            <input type="text" name="qty" id="1" value="0" class="input-number">
+                                            <button class="btn fs-2 inc">+</button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle fs-3" id="totalincrement">30</td>
+                                <td class="align-middle fs-3 text-danger"><i class="fa-solid fa-x"></i></td>
+                            </tr>
+                        </thead>
+
+                        <thead class="strawberry">
+                            <tr>
+                                <th>
+                                    <div class="thumbnail-img">
+                                        <img src="images/cart-overview/overviewimg2.jpg" alt="">
+                                    </div>
+                                </th>
+                                <td class="align-middle fs-3">
+                                    <b>Strawberry</b>
+                                </td>
+                                <td class="align-middle fs-3">$25</td>
+                                <td class="align-middle ">
+                                    <div class="cart d-flex justify-content-between">
+                                        <div class="quantity d-flex align-items-center ">
+                                            <button class="btn fs-2 dec">-</button>
+                                            <input type="text" name="qty" id="2" value="0" class="input-number">
+                                            <button class="btn fs-2 inc">+</button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle fs-3 ">$25</td>
+                                <td class="align-middle fs-3 text-danger"><i class="fa-solid fa-x"></i></td>
+                            </tr>
+                        </thead>
+
+
+                        <thead class="strawberry">
+                            <tr>
+                                <th>
+                                    <div class="thumbnail-img">
+                                        <img src="images/cart-overview/overviewimg3.jpg" alt="">
+                                    </div>
+                                </th>
+                                <td class="align-middle fs-3">
+                                    <b>Strawberry</b>
+                                </td>
+                                <td class="align-middle fs-3">$10</td>
+                                <td class="align-middle ">
+                                    <div class="cart d-flex justify-content-between">
+                                        <div class="quantity d-flex align-items-center ">
+                                            <button class="btn fs-2 dec">-</button>
+                                            <input type="text" name="qty" id="3" value="0" class="input-number">
+                                            <button class="btn fs-2 inc">+</button>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle fs-3 ">$10</td>
+                                <td class="align-middle fs-3 text-danger"><i class="fa-solid fa-x"></i></td>
+                            </tr>
+                        </thead>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cart Overview Section Exit -->
+
+    <!-- Apply Coupen Start -->
+    <section class="apply-coupen">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class=" col-md-8 col-lg-7">
+                    <div class="coupen-area">
+                        <input type="text" placeholder="Apply Coupen" id="apply-coupen">
+                        <a href="" class="btn coupon-btn">Apply Coupon</a>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-lg-3 ">
+                    <div class="order-cartTotal">
+                        <table class="table">
+                            <thead class="text-center">
+                                <tr>
+                                    <th class="card_total text-uppercase">Card Total</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="justify-content-between order-total">
+                                    <td class="subtotal">Subtotal</td>
+                                    <td class="text-right subtotal_rate">$568</td>
+                                </tr>
+                                <tr class="justify-content-between order-total">
+                                    <td class="subtotal">Discount</td>
+                                    <td class="text-right subtotal_rate">$80</td>
+                                </tr>
+                                <tr class="justify-content-between order-total">
+                                    <td class="subtotal">Total</td>
+                                    <td class="text-right subtotal_rate">$890</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="checkout_btn justify-content-end d-flex">
+                        <a href="" class="btn coupon-btn text-uppercase fw-bolder">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Coupen Exit -->
+
+
+
+
+    <script>
+     
+               const incrementBtn =  document.getElementsByClassName('inc')
+               const decerementBtn = document.getElementsByClassName('dec')
+               const priceIncrement = document.getElementById('priceincrement').innerHTML
+               var totalIncrement = document.getElementById('totalincrement').innerHTML
+              
+            //    console.log(incrementBtn);
+            //    console.log(decerementBtn);
+
+            for (let i = 0; i < incrementBtn.length; i++) {
+              let button = incrementBtn[i]
+              button.addEventListener('click' , function (e) {
+                    let buttonClicked = e.target;
+                    // console.log(buttonClicked);      
+                   let input =  buttonClicked.parentElement.children[1]  
+                //    console.log(input);   
+                    let inputValue = input.value
+                    // console.log(inputValue); 
+                    let newValue = parseInt(inputValue) + 1;
+                    // console.log(newValue);
+                    input.value = newValue
+                    totalIncrement =  inputValue*priceIncrement
+                   
+                    console.log(totalIncrement);
+
+                    if (totalIncrement >= 0) {
+                        
+                    }
+                    
+              }) 
+            }
+
+            for (let i = 0; i < decerementBtn.length; i++) {
+              let button = decerementBtn[i]
+              button.addEventListener('click' , function (e) {
+                    let buttonClicked = e.target;
+                    // console.log(buttonClicked);      
+                   let input =  buttonClicked.parentElement.children[1]  
+                //    console.log(input);   
+                    let inputValue = input.value
+                    // console.log(inputValue); 
+                    let newValue = parseInt(inputValue) - 1;
+                    // console.log(newValue);
+                    if (newValue >= 0) {
+                        input.value = newValue
+                    }else{
+                        input.value = 0
+                        alert('quantity not less than zero')
+                    }
+
+                    newInrement =  inputValue*priceIncrement
+                    console.log(newInrement);
+              }) 
+            }
+
+
+
+        // let number = 0;
+
+        // decerementBtn.addEventListener(
+        //     'click',
+        //     function () {
+        //         number--
+        //         numberShow.textContent = number;
+        //     }
+        // )
+
+        // incrementBtn.addEventListener(
+        //     'click',
+        //     function () {
+        //         number++
+        //         numberShow.textContent = number;
+        //     }
+        // )
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <!-- <script src="js/lightbox.min.js"></script> -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
